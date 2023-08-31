@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="98.948">
+    <testcase classname="Ebay Advanced Search Page" name="Ebay logo on Advanced Search page" time="26.347">
+        <system-out><![CDATA[Given I am on Ebay Advanced Search page.....................................passed
+When I click on Ebay logo...................................................passed
+Then I am navigated to Ebay Home Page.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebay Advanced Search Page" name="Doing an advanced Search" time="15.133">
+        <system-out><![CDATA[Given I am on Ebay Advanced Search page.....................................passed
+When I do an advanced search................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebay home page Scenarios" name="Advance Search Link" time="10.129">
+        <system-out><![CDATA[Given I am on ebay home page................................................passed
+When I click on Advanced Link...............................................passed
+Then I navigate to the advanced search page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebay home page Scenarios" name="Search items count" time="16.404">
+        <system-out><![CDATA[Given I am on ebay home page................................................passed
+When I search for 'Iphone 11' on search bar.................................passed
+Then I validate the count of search results is greater than 1000............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebay home page Scenarios" name="Search items count2" time="15.656">
+        <system-out><![CDATA[Given I am on ebay home page................................................passed
+When I search for 'Toy cars' on search bar..................................passed
+Then I validate the count of search results is greater than 100.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebay home page Scenarios" name="Search items count3" time="14.641">
+        <system-out><![CDATA[Given I am on ebay home page................................................passed
+When I search for 'soap' on search bar from 'Baby' category.................passed
+]]></system-out>
+    </testcase>
+</testsuite>

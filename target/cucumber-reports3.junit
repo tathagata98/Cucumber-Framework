@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.243">
+    <testcase classname="Ebay home page Scenarios" name="Advance Search Link" time="0.016">
+        <system-out><![CDATA[Given I am on Ebay home page................................................passed
+When I click on Advanced Link...............................................passed
+Then I navigate to the advanced search page.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
